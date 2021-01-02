@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>
+      {% if page.title %}"{{ page.title }}", pois {% endif %}se parar, é pior
+    </title>
+    {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt | strip_html }}" />
+    {% else %}
+    <meta name="description" content="pessoalmente podendo muito pouco" />
+    {% endif %}
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yrsa:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="/">se parar, é pior &#9640;</a>
+      </h1>
+      <h2>pessoalmente podendo muito pouco</h2>
+    </header>
+    <main>{{ content }}</main>
+    <footer>
+      <a
+        href="https://twitter.com/danielsarsi"
+        target="_blank"
+        rel="noopener noreferrer"
+        >@danielsarsi</a
+      >
+    </footer>
+  </body>
+</html>
