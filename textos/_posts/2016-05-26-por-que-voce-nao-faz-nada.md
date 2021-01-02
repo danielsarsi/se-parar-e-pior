@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Por quê você não faz nada?
 ---
 

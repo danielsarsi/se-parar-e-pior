@@ -1,5 +1,4 @@
 ---
-layout: post
 title: o homem que habita em nós
 ---
 

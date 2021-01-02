@@ -1,5 +1,4 @@
 ---
-layout: post
 title: O mais sincero amigo
 ---
 

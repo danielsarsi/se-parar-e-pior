@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Assumo, não por isso
 ---
 

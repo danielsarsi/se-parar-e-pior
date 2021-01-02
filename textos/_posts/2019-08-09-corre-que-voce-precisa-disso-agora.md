@@ -1,5 +1,4 @@
 ---
-layout: post
 title: corre que você precisa disso agora
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: dançar é difícil
 ---
 

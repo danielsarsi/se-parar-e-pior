@@ -1,5 +1,4 @@
 ---
-layout: post
 title: é a vírgula e você
 ---
 

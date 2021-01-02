@@ -1,5 +1,4 @@
 ---
-layout: post
 title: a limpeza é rosa
 ---
 

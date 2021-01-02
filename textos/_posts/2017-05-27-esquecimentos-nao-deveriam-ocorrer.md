@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Esquecimentos não deveriam ocorrer
 ---
 

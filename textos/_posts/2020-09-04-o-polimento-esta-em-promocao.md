@@ -1,5 +1,4 @@
 ---
-layout: post
 title: o polimento está em promoção
 ---
 

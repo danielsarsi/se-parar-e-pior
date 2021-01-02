@@ -1,2 +1,9 @@
 permalink: pretty
 timezone: America/Sao_Paulo
+
+defaults:
+  - scope:
+      path: "textos"
+      type: "posts"
+    values:
+      layout: "post"
