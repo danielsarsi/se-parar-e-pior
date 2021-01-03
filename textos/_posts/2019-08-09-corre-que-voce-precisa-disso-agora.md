@@ -39,7 +39,4 @@ pois preciso desse papel agora
 molhado, cansado e suspeito  
 consegui esse papel agora
 
-<figure>
-  <img src="/assets/img/corre.png" alt="Desenho à lápis de um homem.">
-  <figcaption>depois de correr muito por precisar do papel agora</figcaption>
-</figure>
+{% include figure.html file="/assets/img/corre.png" alt="Desenho à lápis de um homem." caption="depois de correr muito por precisar do papel agora" %}
