@@ -1,3 +1,48 @@
+/* yrsa-300 - latin */
+@font-face {
+  font-family: "Yrsa";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../fonts/yrsa-v6-latin-300.woff2") format("woff2"),
+    url("../fonts/yrsa-v6-latin-300.woff") format("woff");
+}
+
+/* yrsa-regular - latin */
+@font-face {
+  font-family: "Yrsa";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/yrsa-v6-latin-regular.woff2") format("woff2"),
+    url("../fonts/yrsa-v6-latin-regular.woff") format("woff");
+}
+
+/* yrsa-600 - latin */
+@font-face {
+  font-family: "Yrsa";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/yrsa-v6-latin-600.woff2") format("woff2"),
+    url("../fonts/yrsa-v6-latin-600.woff") format("woff");
+}
+
+/* yrsa-500 - latin */
+@font-face {
+  font-family: "Yrsa";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/yrsa-v6-latin-500.woff2") format("woff2"),
+    url("../fonts/yrsa-v6-latin-500.woff") format("woff");
+}
+
+/* yrsa-700 - latin */
+@font-face {
+  font-family: "Yrsa";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/yrsa-v6-latin-700.woff2") format("woff2"),
+    url("../fonts/yrsa-v6-latin-700.woff") format("woff");
+}
+
 body {
   font-family: "Yrsa", sans-serif;
   margin: 0 auto;
