@@ -48,17 +48,25 @@
     url("../fonts/yrsa-v6-latin-700.woff") format("woff");
 }
 
+:root {
+  --texto: #222222;
+  --fundo: #ffffff;
+  --cinza: #757575;
+  --cinza-escuro: #555555;
+}
+
 body {
   font-family: "Yrsa", sans-serif;
   margin: 0 auto;
   padding: 0 2rem;
   max-width: 36rem;
-  color: #222;
+  color: var(--texto);
+  background-color: var(--fundo);
   font-size: 20px;
 }
 
 a {
-  color: #222;
+  color: var(--texto);
   text-decoration: none;
 }
 
@@ -79,7 +87,7 @@ body > header h2 {
 }
 
 body > header h2 {
-  color: #757575;
+  color: var(--cinza);
 }
 
 main {
@@ -106,7 +114,7 @@ article p {
 }
 
 article header {
-  color: #757575;
+  color: var(--cinza);
 }
 
 article figure {
@@ -121,7 +129,7 @@ article figure img {
 }
 
 article figcaption {
-  color: #757575;
+  color: var(--cinza);
   font-size: 0.9em;
   text-align: center;
   margin-top: 0.5em;
@@ -129,13 +137,13 @@ article figcaption {
 
 article blockquote {
   margin: 2rem;
-  color: #555;
+  color: var(--cinza-escuro);
 }
 
 article header h1 {
   font-weight: 500;
   margin: 0;
-  color: #222;
+  color: var(--texto);
 }
 
 footer {
@@ -143,5 +151,14 @@ footer {
 }
 
 footer a {
-  color: #757575;
+  color: var(--cinza);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --texto: #ffffff;
+    --fundo: #222222;
+    --cinza: #8a8a8a;
+    --cinza-escuro: #bababa;
+  }
 }
