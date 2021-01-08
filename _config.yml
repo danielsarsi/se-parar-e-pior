@@ -12,4 +12,4 @@ defaults:
       path: "textos"
       type: "posts"
     values:
-      layout: "post"
+      layout: "texto"
