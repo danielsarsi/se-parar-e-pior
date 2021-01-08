@@ -1,6 +1,12 @@
 permalink: pretty
 timezone: America/Sao_Paulo
 
+markdown: CommonMark
+
+commonmark:
+  options: ["SMART", "FOOTNOTES", "UNSAFE"]
+  extensions: ["table", "strikethrough"]
+
 defaults:
   - scope:
       path: "textos"
