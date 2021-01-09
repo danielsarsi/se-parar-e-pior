@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<ol class="full">
+  {% for post in site.categories.textos %}
+    <li>
+      <a href="{{ post.url }}">
+        <span class="title">
+          {{ post.title }}
+        </span>
+        <br/>
+        <span class="information">
+          {{ post.content | number_of_words }}
+          palavras em
+          <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+        </span>
+      </a>
+    </li>
+  {% endfor %}
+</ol>
+<a href="/">&leftarrow; voltar</a>

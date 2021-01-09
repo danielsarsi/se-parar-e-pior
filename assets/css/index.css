@@ -150,8 +150,25 @@ main > ol {
   font-weight: 500;
 }
 
+main > ol.full {
+  font-size: 1em;
+}
+
 main > ol li {
   margin: 1rem 0;
+}
+
+main > ol.full a:hover {
+  text-decoration: none;
+}
+
+main > ol .title:hover {
+  text-decoration: underline;
+}
+
+main > ol .information {
+  font-weight: 400;
+  color: var(--cinza);
 }
 
 article {
