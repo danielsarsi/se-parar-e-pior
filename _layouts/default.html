@@ -5,7 +5,11 @@
     <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
     <meta content="dark light" name="color-scheme"/>
     <title>
-      {% if page.title %}"{{ page.title }}", pois
+      {% if page.categories contains "textos" %}
+        "{{ page.title }}", pois se parar, é pior
+      {% elsif page.title %}
+        {{ page.title }}
+        -
       {% endif %}se parar, é pior
     </title>
     {% if page.excerpt %}
