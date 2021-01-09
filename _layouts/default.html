@@ -13,7 +13,9 @@
       {% endif %}se parar, é pior
     </title>
 
-    {% if page.description %}
+    {% if page.categories contains "textos" %}
+      <meta name="description" content="{{ page.content | number_of_words }} palavras em {{ page.date | date: "%d/%m/%Y" }}"/>
+    {% elsif page.description %}
       <meta name="description" content="{{ page.description | strip_html }}"/>
     {% elsif page.excerpt %}
       <meta name="description" content="{{ page.excerpt | strip_html }}"/>
