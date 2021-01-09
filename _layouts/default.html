@@ -12,7 +12,10 @@
         -
       {% endif %}se parar, é pior
     </title>
-    {% if page.excerpt %}
+
+    {% if page.description %}
+      <meta name="description" content="{{ page.description | strip_html }}"/>
+    {% elsif page.excerpt %}
       <meta name="description" content="{{ page.excerpt | strip_html }}"/>
     {% else %}
       <meta content="pessoalmente podendo muito pouco" name="description"/>
