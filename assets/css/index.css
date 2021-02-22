@@ -141,9 +141,11 @@ body > header h2 {
 
 body > header img {
   display: inline-block;
-  height: 1ex;
-  width: 1ex;
-  margin-left: 1ch;
+  height: 1.5ex;
+  width: 1.5ex;
+  position: relative;
+  top: 0.25ex;
+  left: 0.75ex;
 }
 
 main {
