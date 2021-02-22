@@ -183,7 +183,6 @@ article {
 }
 
 article header {
-  line-height: 1;
   color: var(--cinza);
   margin: 2rem 0;
 }
@@ -211,10 +210,10 @@ article blockquote {
 }
 
 article header h1 {
+  line-height: normal;
   font-weight: 500;
   margin: 0;
   color: var(--texto);
-  margin-bottom: 0.25rem;
 }
 
 footer {
