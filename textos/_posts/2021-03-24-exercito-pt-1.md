@@ -31,7 +31,7 @@ o caminho até o alojamento é real"
 toc, toc, tênis de corrida batendo  
 no chão de coturno  
 toc, toc, luz da noite  
-soldados desavisados, irônicos,  
+soldados desavisados,  
 contando o tempo que não passa  
 telefone toca, fuzil no chão como uma tocha  
 vejam, estou com um fuzil,  
