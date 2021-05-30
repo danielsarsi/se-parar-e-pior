@@ -60,7 +60,7 @@ brilha, brilha muito o que perco
 o que cintila  
 é o rapaz, também  
 comemos, corremos, de noite, e tiramos uma foto  
-foto de mim a baixo do que resplandece
+foto minha a baixo do que resplandece
 
 carrego essa foto comigo  
 "você estava magro"  
@@ -100,7 +100,7 @@ sem entender sua necessidade
 corre, corre  
 fiz um texto disso, não?  
 correr para onde, soldado?  
-se há uma cancela simbólica ali, naquele lugar  
+se há uma cancela ali, naquele lugar  
 você deve permanecer sentado  
 levantar  
 e  
