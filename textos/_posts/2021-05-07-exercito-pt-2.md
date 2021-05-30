@@ -31,7 +31,7 @@ rasteje por ele
 rasteje começando pelo braço direito,  
 coloque o cotovelo direito distendido em sua visão  
 arraste a terra, com a força de seu antebraço  
-repita com seu braço direito  
+repita com seu braço esquerdo  
 faça, repita  
 faça, repita
 
