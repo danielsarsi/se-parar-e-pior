@@ -4,7 +4,7 @@ title: exército pt. 2
 
 pula, pula  
 soldado, brilha  
-brilha o quando você busca  
+brilha o quanto você busca  
 no céu, de noite
 
 os gritos, sabe?  
